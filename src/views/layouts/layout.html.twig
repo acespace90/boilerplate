@@ -20,13 +20,17 @@
     {% block javascripts_head %}{% endblock %}
   </head>
   <body>
+    
+    {% block header %}
+    {% endblock %}
 
     <main class="main">
-      
-      {% block content %}{% endblock %}
-
+      {% block content %}
+      {% endblock %}
     </main>
 
+    {% block footer %}
+    {% endblock %}
 
     <script>var base_url = '{{ app.asset_url }}'</script>
 
