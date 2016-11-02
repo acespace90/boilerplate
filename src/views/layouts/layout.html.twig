@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <title>Test ITCSS</title>
+    <meta name="description" content="test itcss">
+
+    <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/572798ac-a646-44f6-91d3-a7889bcd46d2.css"/>
+
+    {% if app.env == "dev" %}
+      <link rel="stylesheet" href="{{ app.asset_url }}css/main.css" />
+    {% else %}
+      <link rel="stylesheet" href="{{ app.asset_url }}css/main.min.css" />
+    {% endif %}
+
+    <!--<script src="{{ app.asset_url }}js/head.min.js"></script>-->
+
+    {% block javascripts_head %}{% endblock %}
+  </head>
+  <body>
+
+    <main class="main">
+      
+      {% block content %}{% endblock %}
+
+    </main>
+
+
+    <script>var base_url = '{{ app.asset_url }}'</script>
+
+    <script src="{{ app.asset_url }}js/footer.min.js"></script>
+
+    {% block javascripts_files %}
+    {% endblock %}
+
+  </body>
+</html>
