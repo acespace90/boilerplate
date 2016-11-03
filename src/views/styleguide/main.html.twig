@@ -23,6 +23,8 @@
 
 {% block content %}
   {% for core in menu.core %}
+    <div class="row">
     {{ _self.recursiveFilesInclude(core, 'core', 0) }}
+    </div>
   {% endfor %}
 {% endblock %}

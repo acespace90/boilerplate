@@ -5,6 +5,10 @@
 @import "foundation-styleguide";
 @import "font-awesome";
 
+html,body{
+  
+}
+
 nav.top-bar{
   position:fixed;
   top: 0;
@@ -13,7 +17,7 @@ nav.top-bar{
   height: $topbar-height;
   z-index: 10;
   box-shadow: 0 1px 3px rgba(0,0,0,.4);
-  background: #E84C66;
+  // background: #E84C66;
   .dropdown{
     box-shadow: 0 1px 3px rgba(0,0,0,.4);
   }
@@ -92,7 +96,7 @@ nav.top-bar{
     ul.left{
       li:not(.icon){
         display: none;
-        background: #E84C66;
+        // background: #E84C66;
       }
     }
   }
@@ -106,7 +110,7 @@ nav.top-bar{
         &:not(.has-form) {
           a:not(.button) {
             line-height: 26px;
-            background: #E84C66;
+            // background: #E84C66;
           }
         }
         &.active:not(.has-form) {
@@ -127,7 +131,7 @@ nav.top-bar{
       }
     }
     ul li {
-      background: #E84C66;
+      // background: #E84C66;
       & > span {
         line-height: $topbar-height;
         display: block;

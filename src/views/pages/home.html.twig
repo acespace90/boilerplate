@@ -22,23 +22,15 @@
     </div>
   </section>
 
-  <section class="o-bottom-spacing">
-    <div class="row">
-      <div class="column">
-        <p><a href="#">Link</a></p>
-        <p><a class="t-link-bare" href="#">Natural link</a></p>
-        <p><a class="t-link-natural" href="#">Bare link</a></p>
-        <p><a class="t-link-obvious" href="#">Obvious link</a></p>
-      </div>
-    </div>
-  </section>
-
   <section class="buttons">
     <div class="row">
       <div class="column">
-        
+        {% include 'blocks/buttons.html.twig' %}
       </div>
     </div>
   </section>
 
+{% endblock %}
+
+{% block javascript %}
 {% endblock %}

@@ -1,52 +1,52 @@
   <h3 class="sg__subtitle">Form</h3>
 
-  <form class="sg-forms">
-
-      <div>
-        <label class="label">Cosa ti serve</label>
-        <input class="input input--text" type="text" placeholder="es. imbianchino..." />
+  <form class="base-form">
+    
+    <fieldset class="row">
+      <div class="base-form__wrapper base-form__wrapper--full column">
+        <label for="with-label">With label</label>
+        <input id="with-label" type="text" placeholder="Placeholder here..." />
       </div>
+    </fieldset>
 
-      <div>
-        <label class="label">Dove ti serve</label>
-        <input class="input input--text" type="text" placeholder="es. Reggio Emilia... " />
+    <fieldset class="row o-bottom-spacing-small">
+      <div class="base-form__wrapper base-form__wrapper--full column">
+        <input type="text" placeholder="Without label..." />
       </div>
+    </fieldset>
 
-      <div>
-        <label class="label label--geo">Dove ti serve</label>
-        <input class="input input--text input--geo" type="text" placeholder="es. Reggio Emilia... " />
-        <button class="button button--primary button--geo">
-          <i class="fa fa-location-arrow"></i>
-        </button>
+    <fieldset class="row">
+      <div class="base-form__wrapper base-form__wrapper--full column">
+        <input type="text" id="floating-label" class="o-with-floating-label" required />
+        <label for="floating-label" class="floating-label">Floating Label Text</label>
       </div>
+    </fieldset>
 
-      {# <div>
-        <label class="label">Select Box
-          <select>
-            <option value="husker">Husker</option>
-            <option value="starbuck">Starbuck</option>
-            <option value="hotdog">Hot Dog</option>
-            <option value="apollo">Apollo</option>
-          </select>
-        </label>
+    <fieldset class="row">
+      <div class="base-form__wrapper base-form__wrapper--half column">
+        <label for="with-label-2">With label</label>
+        <input id="with-label-2" type="text" placeholder="Placeholder here..." />
       </div>
-
-      <div>
-        <label class="label">Choose Your Favorite</label>
-        <input class="input input--radio" type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
-        <input class="input input--radio" type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
+      <div class="base-form__wrapper base-form__wrapper--half column">
+        <label for="with-label-3">With label</label>
+        <input id="with-label-3" type="text" placeholder="Placeholder here..." />
       </div>
+    </fieldset>
 
-      <div>
-        <label class="label">Check these out</label>
-        <input class="input input--checkbox" id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-        <input class="input input--checkbox" id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+    <fieldset class="row">
+      <div class="base-form__wrapper base-form__wrapper--full column">
+        <label>Label</label>
+        <select>
+          <option value="option-0">Seleziona</option>
+          {% for i in 1..4 %}
+            <option value="option-{{ i }}">Option {{ i }}</option>
+          {% endfor %}
+        </select>
       </div>
+    </fieldset>
 
-      <div>
-        <label class="label">Textarea Label
-          <textarea class="input input--textarea" placeholder="small-12.columns"></textarea>
-        </label>
-      </div> #}
+    <fieldset>
+      <button type="submit" class="button button--primary button--rounded">Some text</button>
+    </fieldset>
 
   </form>

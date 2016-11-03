@@ -11876,8 +11876,7 @@ nav.top-bar {
   width: 100%;
   height: 45px;
   z-index: 10;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-  background: #E84C66; }
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); }
   nav.top-bar .dropdown {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); }
 
@@ -11939,15 +11938,13 @@ nav.top-bar {
 
 @media only screen and (max-width: 950px) {
   .top-bar-section ul.left li:not(.icon) {
-    display: none;
-    background: #E84C66; } }
+    display: none; } }
 
 @media only screen and (min-width: 40.063em) {
   .top-bar-section .dropdown {
     min-width: 150px; }
     .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
-      line-height: 26px;
-      background: #E84C66; }
+      line-height: 26px; }
     .top-bar-section .dropdown li.active:not(.has-form) a:not(.button) {
       line-height: 26px;
       background: #008CBA; }
@@ -11958,19 +11955,17 @@ nav.top-bar {
       font-size: 23px;
       line-height: 45px;
       display: block; }
-  .top-bar-section ul li {
-    background: #E84C66; }
-    .top-bar-section ul li > span {
-      line-height: 45px;
-      display: block;
-      width: 100%;
-      color: #FFFFFF;
-      padding-left: 15px;
-      padding-right: 15px;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-      font-size: 0.8125rem;
-      font-weight: normal;
-      text-transform: none; }
+  .top-bar-section ul li > span {
+    line-height: 45px;
+    display: block;
+    width: 100%;
+    color: #FFFFFF;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: normal;
+    text-transform: none; }
   .top-bar-section .has-dropdown .dropdown li.has-dropdown > a:after {
     top: 0;
     margin-top: 5px; } }
