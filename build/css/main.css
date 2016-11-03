@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 .row {
   max-width: 1220px;
   margin-left: auto;
@@ -706,37 +707,37 @@
     float: left; } }
 
 .font-primary.x-small {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 12px;
   font-size: 0.75rem;
   line-height: 1.33333em; }
 
 .font-primary.small {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.42857em; }
 
 .font-primary.base {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5em; }
 
 .font-primary.mid {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 23px;
   font-size: 1.4375rem;
   line-height: 1.34783em; }
 
 .font-primary.large {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 31px;
   font-size: 1.9375rem;
   line-height: 1.35484em; }
 
 .font-primary.x-large {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 40px;
   font-size: 2.5rem;
   line-height: 1.375em; }
@@ -1186,37 +1187,37 @@ html {
   color: #333333; }
 
 h1 {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 40px;
   font-size: 2.5rem;
   line-height: 1.375em; }
 
 h2 {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 31px;
   font-size: 1.9375rem;
   line-height: 1.35484em; }
 
 h3 {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 23px;
   font-size: 1.4375rem;
   line-height: 1.34783em; }
 
 h4 {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5em; }
 
 h5 {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.42857em; }
 
 h6 {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 12px;
   font-size: 0.75rem;
   line-height: 1.33333em; }
@@ -1257,7 +1258,7 @@ img {
 .base-form label {
   display: block;
   width: 100%;
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5em;
@@ -1336,7 +1337,7 @@ img {
   .base-form textarea::-webkit-input-placeholder,
   .base-form textarea::-webkit-input-placeholder {
     color: #CCCCCC;
-    font-family: "Avenir Next W00";
+    font-family:  "Source Sans Pro", sans-serif ;
     font-size: 16px;
     font-size: 1rem;
     line-height: 1.5em; }
@@ -1370,7 +1371,7 @@ img {
   .base-form textarea:-moz-placeholder,
   .base-form textarea::-moz-placeholder {
     color: #CCCCCC;
-    font-family: "Avenir Next W00";
+    font-family:  "Source Sans Pro", sans-serif ;
     font-size: 16px;
     font-size: 1rem;
     line-height: 1.5em; }
@@ -1398,7 +1399,7 @@ img {
   margin-bottom: 60px; }
 
 .o-with-floating-label + label.floating-label {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5em;
@@ -1414,7 +1415,7 @@ img {
 .o-with-floating-label:focus + label.floating-label,
 .o-with-floating-label:valid + label.floating-label {
   color: #2CA0D8;
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 12px;
   font-size: 0.75rem;
   line-height: 1.33333em;
@@ -1623,7 +1624,7 @@ img {
     margin: 0 0 20px; }
 
 .font-primary.x-small {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 12px;
   font-size: 0.75rem;
   line-height: 1.33333em; }
@@ -1631,7 +1632,7 @@ img {
     display: inline;
     font-weight: lighter; }
   .font-primary.x-small:before {
-    content: '"Avenir Next W00" (12, 16)';
+    content: ' "Source Sans Pro", sans-serif  (12, 16)';
     background-color: #efefef;
     display: block;
     padding: 5px 5px;
@@ -1640,7 +1641,7 @@ img {
     line-height: 1em; }
 
 .font-primary.small {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.42857em; }
@@ -1648,7 +1649,7 @@ img {
     display: inline;
     font-weight: lighter; }
   .font-primary.small:before {
-    content: '"Avenir Next W00" (14, 20)';
+    content: ' "Source Sans Pro", sans-serif  (14, 20)';
     background-color: #efefef;
     display: block;
     padding: 5px 5px;
@@ -1657,7 +1658,7 @@ img {
     line-height: 1em; }
 
 .font-primary.base {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5em; }
@@ -1665,7 +1666,7 @@ img {
     display: inline;
     font-weight: lighter; }
   .font-primary.base:before {
-    content: '"Avenir Next W00" (16, 24)';
+    content: ' "Source Sans Pro", sans-serif  (16, 24)';
     background-color: #efefef;
     display: block;
     padding: 5px 5px;
@@ -1674,7 +1675,7 @@ img {
     line-height: 1em; }
 
 .font-primary.mid {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 23px;
   font-size: 1.4375rem;
   line-height: 1.34783em; }
@@ -1682,7 +1683,7 @@ img {
     display: inline;
     font-weight: lighter; }
   .font-primary.mid:before {
-    content: '"Avenir Next W00" (23, 31)';
+    content: ' "Source Sans Pro", sans-serif  (23, 31)';
     background-color: #efefef;
     display: block;
     padding: 5px 5px;
@@ -1691,7 +1692,7 @@ img {
     line-height: 1em; }
 
 .font-primary.large {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 31px;
   font-size: 1.9375rem;
   line-height: 1.35484em; }
@@ -1699,7 +1700,7 @@ img {
     display: inline;
     font-weight: lighter; }
   .font-primary.large:before {
-    content: '"Avenir Next W00" (31, 42)';
+    content: ' "Source Sans Pro", sans-serif  (31, 42)';
     background-color: #efefef;
     display: block;
     padding: 5px 5px;
@@ -1708,7 +1709,7 @@ img {
     line-height: 1em; }
 
 .font-primary.x-large {
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 40px;
   font-size: 2.5rem;
   line-height: 1.375em; }
@@ -1716,7 +1717,7 @@ img {
     display: inline;
     font-weight: lighter; }
   .font-primary.x-large:before {
-    content: '"Avenir Next W00" (40, 55)';
+    content: ' "Source Sans Pro", sans-serif  (40, 55)';
     background-color: #efefef;
     display: block;
     padding: 5px 5px;
@@ -3807,7 +3808,7 @@ img {
   display: inline-block;
   -webkit-appearance: none;
   -moz-appearance: none;
-  font-family: "Avenir Next W00";
+  font-family:  "Source Sans Pro", sans-serif ;
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.42857em;
@@ -3832,7 +3833,7 @@ img {
     border-radius: 3px; }
   .button--simple, .button--simple:hover {
     background: transparent;
-    color: #2CA0D8; }
+    color: inherit; }
   .button--icon span {
     display: inline-block;
     vertical-align: middle; }
@@ -3846,7 +3847,7 @@ img {
       stroke: #fff; }
   .button--x-small {
     padding: 4px 15px;
-    font-family: "Avenir Next W00";
+    font-family:  "Source Sans Pro", sans-serif ;
     font-size: 12px;
     font-size: 0.75rem;
     line-height: 1.33333em; }
@@ -3857,10 +3858,7 @@ img {
   .button--primary {
     color: #fff;
     background-color: #2CA0D8;
-    transition: background 0.5s ease;
-    -webkit-box-shadow: 0px 5px 7px rgba(44, 160, 216, 0.1);
-    -moz-box-shadow: 0px 5px 7px rgba(44, 160, 216, 0.1);
-    box-shadow: 0px 5px 7px rgba(44, 160, 216, 0.1); }
+    transition: background 0.5s ease; }
     .button--primary:hover, .button--primary:focus {
       background-color: #2182b0;
       color: #fff;
@@ -3886,13 +3884,13 @@ img {
         outline: 1px solid rgba(44, 160, 216, 0);
         outline-offset: 15px;
         text-decoration: none; }
+    .button--primary.button--simple, .button--primary.button--simple:hover {
+      color: #2CA0D8;
+      background: transparent; }
   .button--secondary {
     color: #fff;
     background-color: #EB7924;
-    transition: background 0.5s ease;
-    -webkit-box-shadow: 0px 5px 7px rgba(235, 121, 36, 0.1);
-    -moz-box-shadow: 0px 5px 7px rgba(235, 121, 36, 0.1);
-    box-shadow: 0px 5px 7px rgba(235, 121, 36, 0.1); }
+    transition: background 0.5s ease; }
     .button--secondary:hover, .button--secondary:focus {
       background-color: #ca6112;
       color: #fff;
@@ -3918,6 +3916,9 @@ img {
         outline: 1px solid rgba(235, 121, 36, 0);
         outline-offset: 15px;
         text-decoration: none; }
+    .button--secondary.button--simple, .button--secondary.button--simple:hover {
+      color: #EB7924;
+      background: transparent; }
 
 .b-header {
   background: #CCCCCC;
@@ -3950,7 +3951,7 @@ img {
       display: block;
       padding: 0 20px;
       text-transform: uppercase;
-      font-family: "Avenir Next W00";
+      font-family:  "Source Sans Pro", sans-serif ;
       font-size: 14px;
       font-size: 0.875rem;
       line-height: 1.42857em; }
